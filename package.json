@@ -1,0 +1,21 @@
+{
+  "name": "sxngduxbluenight",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "start": "vercel start"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "vercel": "^24.0.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
