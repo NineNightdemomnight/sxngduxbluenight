@@ -7,9 +7,7 @@ const PORT = process.env.PORT || 18012;
 
 
 
-const cors = require('cors');
 
-app.use(cors());
 
 
 // เส้นทางหลัก
