@@ -12,9 +12,6 @@ const cors = require('cors');
 app.use(cors());
 
 
-
-
-
 // เส้นทางหลัก
 app.get('/', (req, res) => {
     res.send('Hey this is my API running 🥳');
